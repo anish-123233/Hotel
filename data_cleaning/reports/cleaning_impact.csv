@@ -1,0 +1,6 @@
+table_name,raw_rows,cleaned_rows,rows_removed,retention_percentage
+fact_bookings,134590,134590,0,100.0
+fact_aggregated_bookings,9200,9200,0,100.0
+dim_hotels,25,25,0,100.0
+dim_rooms,4,4,0,100.0
+dim_date,92,92,0,100.0

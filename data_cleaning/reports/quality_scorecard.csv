@@ -1,0 +1,12 @@
+Metric,Result
+Tables Processed,5
+Raw Records Processed,"143,911"
+Clean Records Output,"143,911"
+Records Removed,0
+Records Quarantined,0
+Validation Checks,25
+Checks Passed,25
+Checks Failed,0
+Validation Pass Rate,100.00%
+Data Retention Rate,100.00%
+Quality Gate,PASSED
