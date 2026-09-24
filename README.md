@@ -24,3 +24,9 @@ The automation script used to run the data quality pipeline and execute automate
 The SQL script used to perform data transformations for analysis can be found [here.](SQL_scripts/transformations.sql)
 
 The SQL queries used to perform the hotel portfolio analysis can be found [here.](SQL_scripts/eda.sql)
+
+
+
+# Data Schema and Structure
+
+![Hotel Dashboard](data_model.png)
