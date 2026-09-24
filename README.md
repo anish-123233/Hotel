@@ -19,5 +19,8 @@ The python scripts utilized to inspect and perform quality checks can be found [
 
 The pipeline runner used to automate execution and enforce the data quality gate can be found [here.](data_cleaning/run_pipeline.py)
 
-The automation script used to run the data quality pipeline and execute automated Pytest validations can be found [here.](data_cleaning/run_pipeline.py).
+The automation script used to run the data quality pipeline and execute automated Pytest validations can be found [here.](data_cleaning/run_pipeline.py)
 
+The SQL script used to perform data transformations for analysis can be found [here.](SQL_scripts/transformations.sql)
+
+The SQL queries used to perform the hotel portfolio analysis can be found [here.](SQL_scripts/eda.sql)
