@@ -29,4 +29,4 @@ The SQL queries used to perform the hotel portfolio analysis can be found [here.
 
 # Data Schema and Structure
 
-![Hotel Revenue Dashboard](data_model.png)
+![Hotel Dashboard](data_model.png)
