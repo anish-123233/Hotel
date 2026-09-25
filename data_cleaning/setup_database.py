@@ -1,3 +1,29 @@
+"""
+===============================================================================
+HOTEL DATABASE INITIALIZATION & DATA LOADING
+===============================================================================
+
+Purpose:
+    Creates the Hotels PostgreSQL database and loads cleaned Parquet datasets
+    into structured database tables for downstream SQL analysis.
+
+Process:
+    1. Creates the Hotels database if it does not already exist.
+    2. Connects to PostgreSQL using SQLAlchemy.
+    3. Reads cleaned Parquet datasets.
+    4. Loads each dataset into its corresponding PostgreSQL table.
+    5. Verifies the tables created in the database.
+
+Input:
+    data_cleaning/data/parquet/*.parquet
+
+Output:
+    PostgreSQL database: Hotels
+    Tables: fact_bookings, fact_aggregated_bookings, dim_hotels,
+            dim_rooms, dim_date
+===============================================================================
+"""
+
 from pathlib import Path
 
 import pandas as pd
@@ -76,7 +102,7 @@ TABLES = {
 
 
 # ============================================================
-# STEP 4 — IMPORT CLEANED CSV FILES
+# STEP 4 — IMPORT CLEANED PARQUET FILES
 # ============================================================
 
 for table_name,file_name in TABLES.items():
