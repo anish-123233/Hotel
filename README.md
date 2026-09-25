@@ -33,7 +33,7 @@ The SQL queries used to perform the hotel portfolio analysis can be found [here.
 
 The Atliq database follows a Star Schema consisting of 5 tables: 2 fact tables and 3 dimension tables, with a total of 143,911 records.
 
-![Hotel Data Model](data_model.png)
+![Hotel Data Model](Images/data_model.png)
 
 
 
@@ -48,6 +48,6 @@ Demand also skews toward weekends: Weekend RevPAR (₹7,971.63) and occupancy (4
 Together, these patterns point to a portfolio that could grow revenue further by extending weekend-level demand into weekdays, and by protecting the luxury pricing that drives the bulk of its income.
 
 <p align="center">
-  <img src="images/image1.png" width="48%">
-  <img src="images/image2.png" width="48%">
+  <img src="Images/KPI.png" width="48%">
+  <img src="Images/revenue_split.png" width="48%">
 </p>
