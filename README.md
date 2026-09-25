@@ -32,3 +32,10 @@ The SQL queries used to perform the hotel portfolio analysis can be found [here.
 The Atliq database follows a Star Schema consisting of 5 tables: 2 fact tables and 3 dimension tables, with a total of 143,911 records.
 
 ![Hotel Data Model](data_model.png)
+
+
+
+# Executive Summary
+
+### Overview of Findings
+
