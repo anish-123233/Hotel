@@ -48,7 +48,8 @@ Demand also skews toward weekends: Weekend RevPAR (₹7,971.63) and occupancy (4
 Together, these patterns point to a portfolio that could grow revenue further by extending weekend-level demand into weekdays, and by protecting the luxury pricing that drives the bulk of its income.
 
 <p align="center">
-  <img src="Images/KPI.png" width="48%" height="300" style="object-fit: cover;">
-  <img src="Images/revenue_split.png" width="48%" height="500" style="object-fit: cover;">
+  <img src="Images/KPI.png" width="100%">
 </p>
-
+<p align="center">
+  <img src="Images/revenue_split.png" width="100%">
+</p>
