@@ -1,3 +1,27 @@
+"""
+===============================================================================
+HOTEL BOOKING DATA QUALITY PIPELINE RUNNER
+===============================================================================
+
+Purpose:
+    Automates the execution of quality_pipeline.ipynb and evaluates the
+    resulting data quality scorecard.
+
+Process:
+    1. Validates and executes the pipeline notebook.
+    2. Verifies that the quality scorecard was generated.
+    3. Reads key validation metrics and the Quality Gate result.
+    4. Reports whether the pipeline PASSED or FAILED.
+
+Output:
+    reports/quality_scorecard.csv
+
+The script exits with:
+    0 -> Quality Gate PASSED
+    1 -> Pipeline execution or Quality Gate FAILED
+===============================================================================
+"""
+
 from pathlib import Path
 from datetime import datetime
 import sys
