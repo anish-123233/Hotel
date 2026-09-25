@@ -45,3 +45,5 @@ Atliq Group of Hotels generated ₹1.69Bn (160 crores) in revenue across 3 month
 
 Demand also skews toward weekends: Weekend RevPAR (₹7,971.63) and occupancy (44.22%) both outpace weekdays (₹7,082.53 and 39.06%), even though ADR is nearly identical across the two, meaning the gap comes from more rooms selling on weekends, not from charging more for them.
 
+Together, these patterns point to a portfolio that could grow revenue further by extending weekend-level demand into weekdays, and by protecting the luxury pricing that drives the bulk of its income.
+
