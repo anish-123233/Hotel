@@ -29,4 +29,6 @@ The SQL queries used to perform the hotel portfolio analysis can be found [here.
 
 # Data Schema and Structure
 
+Atliq's database structure as seen below consists of 5 tables with a total row count of 143,911 records.
+
 ![Hotel Data Model](data_model.png)
