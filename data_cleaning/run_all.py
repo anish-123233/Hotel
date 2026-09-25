@@ -1,3 +1,27 @@
+"""
+===============================================================================
+HOTEL BOOKING DATA QUALITY AUTOMATION
+===============================================================================
+
+Purpose:
+    Automates the complete data quality workflow by running the pipeline
+    followed by automated validation tests.
+
+Process:
+    1. Executes run_pipeline.py to clean and validate the data.
+    2. Runs the pytest data quality test suite.
+    3. Reports the overall pipeline and test status.
+    4. Returns an appropriate exit code based on the test results.
+
+Output:
+    Processed datasets, data quality reports, and test results.
+
+Exit Code:
+    0 -> Pipeline and tests PASSED
+    1 -> Pipeline or tests FAILED
+===============================================================================
+"""
+
 from pathlib import Path
 from datetime import datetime
 import subprocess
