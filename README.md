@@ -39,3 +39,5 @@ The Atliq database follows a Star Schema consisting of 5 tables: 2 fact tables a
 
 ### Overview of Findings
 
+Atliq Group of Hotels generated ₹1.69Bn (160 crores) in revenue across 3 months, with Luxury properties contributing 61.62% of that total versus 38.38% from Business, positioning the hotel as a predominantly luxury-focused hotel group where premium pricing, not room volume, is the main revenue driver. 
+
