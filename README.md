@@ -49,6 +49,6 @@ Together, these patterns point to a portfolio that could grow revenue further by
 
 <p align="center">
   <img src="Images/KPI.png" width="48%" height="300" style="object-fit: cover;">
-  <img src="Images/revenue_split.png" width="48%" height="300" style="object-fit: cover;">
+  <img src="Images/revenue_split.png" width="48%" height="500" style="object-fit: cover;">
 </p>
 
