@@ -53,7 +53,7 @@ print()
 pipeline_result = subprocess.run([sys.executable,str(RUN_PIPELINE)],cwd = PROJECT_DIR)
 
 if pipeline_result.returncode != 0:
-    runtime_seconds = time.perf_counter - start_time
+    runtime_seconds = time.perf_counter() - start_time
 
     print("\n" + "=" * 70)
     print("PIPELINE FAILED")

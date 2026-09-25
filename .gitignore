@@ -16,9 +16,10 @@ __pycache__/
 
 
 # Project data
-data/raw/
-data/processed/
-data/quarantine/
+data_cleaning/data/raw/
+data_cleaning/data/processed/
+data_cleaning/data/quarantine/
+data_cleaning/data/parquet/
 
 
 
