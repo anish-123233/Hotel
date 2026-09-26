@@ -13,7 +13,7 @@ Key areas of analysis include:
 - **Booking & Cancellation Analysis:** Analysis of booking statuses, cancellations, and no-shows to identify potential revenue leakage.
 - **Operational Performance:** Evaluation of occupancy, realization rates, and other operational KPIs to identify performance gaps and improvement opportunities.
 
-Key metrics and measures for the hotel industry used in this project can be found [here.](metrics list.xlsx)
+Key metrics and measures for the hotel industry used in this project can be found [here.](metrics_list.xlsx)
 
 The python scripts utilized to clean and quarantine data can be found [here.](data_cleaning/src/quality_pipeline.ipynb)
 
