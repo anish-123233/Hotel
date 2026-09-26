@@ -41,6 +41,10 @@ The Atliq database follows a Star Schema consisting of 5 tables: 2 fact tables a
 
 ### Overview of Findings
 
+<p align="center">
+  <img src="Images/category_split.png">
+</p>
+
 Atliq Group of Hotels generated ₹1.69Bn (160 crores) in revenue across 3 months, with Luxury properties contributing 61.62% of that total versus 38.38% from Business, positioning the hotel as a predominantly luxury-focused hotel group where premium pricing, not room volume, is the main revenue driver. 
 
 Demand also skews toward weekends: Weekend RevPAR (₹7,971.63) and occupancy (44.22%) both outpace weekdays (₹7,082.53 and 39.06%), even though ADR is nearly identical across the two, meaning the gap comes from more rooms selling on weekends, not from charging more for them.
@@ -51,6 +55,5 @@ Together, these patterns point to a portfolio that could grow revenue further by
   <img src="Images/KPI.png" width="100%">
 </p>
 <p align="center">
-  <img src="Images/revenue_split.png" width="48%">
-  <img src="Images/category_split.png" width="48%">
+  <img src="Images/revenue_split.png">
 </p>
