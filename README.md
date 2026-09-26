@@ -57,3 +57,7 @@ Together, these patterns point to a portfolio that could grow revenue further by
 <p align="center">
   <img src="Images/day_split.png" width = "100%">
 </p>
+
+### Property Wise Performance
+
+* **Guest rating is a strong predictor of occupancy, not of booking integrity.** There's a ~15-point occupancy gap between the top-rated and bottom-rated tiers (46.27% vs. 31.30%), but Realization Rate stays essentially flat across all three tiers (84.97%–85.19%). Low-rated properties aren't losing more revenue to cancellations — they're simply failing to generate demand in the first place, which points to a guest-experience problem rather than an operations or booking-policy one.
