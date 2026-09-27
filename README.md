@@ -64,13 +64,15 @@ Together, these patterns point to a portfolio that could grow revenue further by
   <img src="Images/rating.png" width = "100%">
 </p>
 
-* **Guest rating is a strong predictor of occupancy, not of booking integrity.** There's a ~15-point occupancy gap between the top-rated and bottom-rated tiers (46.27% vs. 31.30%), but Realization Rate stays essentially flat across all three tiers (84.97%–85.19%). Low-rated properties aren't losing more revenue to cancellations, they're simply failing to generate demand in the first place, which points to a guest-experience problem rather than an operations or booking-policy one.
+* **Guest rating is a strong predictor of occupancy, not of booking integrity.** There's a ~15-point occupancy gap between the top-rated and bottom-rated tiers (46.35% vs. 31.33%), but Realization Rate stays essentially flat across all three tiers (85.20%–85.15%). Low-rated properties aren't losing more revenue to cancellations, they're simply failing to generate demand in the first place, which points to a guest-experience problem rather than an operations or booking-policy one.
 
 * **Pricing doesn't track with rating or occupancy in a straight line.** ADR is lowest in the Mid tier (₹17,614) and highest in the Bottom tier (₹18,999), meaning the worst-rated, lowest-occupancy properties are charging more than mid-performers, not less. This rules out discounting as the driver of low ratings and instead suggests a price/experience mismatch at the bottom end of the portfolio.
 
-* **The gap is property-specific, not room-category-specific.** The same room category appears in both the top and bottom tiers depending on city, e.g., Atliq Bay rates 4.31 in Hyderabad and 4.28 in Bangalore, but only 2.37 in Mumbai, ruling out a portfolio-wide format issue and pointing instead to inconsistent execution at specific city locations.
+* **The gap is property-specific, not room-category-specific.** The same property appears in both the top and bottom tiers depending on city, e.g., Atliq Bay rates 4.30 in Hyderabad and 4.28 in Bangalore, but only 2.36 in Mumbai, ruling out a portfolio-wide format issue and pointing instead to inconsistent execution at specific city locations.
 
 * **Standout outlier: Atliq Seasons (Mumbai).** This single property carries the highest ADR in the entire portfolio (₹23,523.83) alongside the lowest rating (2.29) and just 31.50% occupancy, the clearest individual case of a pricing/experience mismatch worth flagging for a targeted review.
+
+**Takeaway:** Guest satisfaction, not price or cancellation behavior, is the strongest differentiator of property performance in this portfolio. Since Realization Rate holds steady regardless of rating tier, the recovery lever here isn't pricing or policy, it's guest-experience investment at the specific underperforming city properties (starting with Mumbai and Bangalore's lowest-rated locations), where charging comparable-or-higher rates isn't translating into demand.
 
 <p align="center">
   <img src="Images/property_metrics.png" width = "100%">
