@@ -64,9 +64,9 @@ Together, these patterns point to a portfolio that could grow revenue further by
   <img src="Images/rating.png" width = "100%">
 </p>
 
-* **Guest rating is a strong predictor of occupancy, not of booking integrity.** There's a ~15-point occupancy gap between the top-rated and bottom-rated tiers (46.35% vs. 31.33%), but Realization Rate stays essentially flat across all three tiers (85.20%–85.15%). Low-rated properties aren't losing more revenue to cancellations, they're simply failing to generate demand in the first place, which points to a guest-experience problem rather than an operations or booking-policy one.
+* **Guest rating is a strong predictor of occupancy, not of booking integrity.** There's a ~15-point occupancy gap between the top-rated and bottom-rated tiers (46.35% vs. 31.33%), but Realization Rate stays essentially flat across all three tiers (84.98%–85.20%). Low-rated properties aren't losing more revenue to cancellations, they're simply failing to generate demand in the first place, which points to a guest-experience problem rather than an operations or booking-policy one.
 
-* **Pricing doesn't track with rating or occupancy in a straight line.** ADR is lowest in the Mid tier (₹17,614) and highest in the Bottom tier (₹18,999), meaning the worst-rated, lowest-occupancy properties are charging more than mid-performers, not less. This rules out discounting as the driver of low ratings and instead suggests a price/experience mismatch at the bottom end of the portfolio.
+* **Pricing doesn't track with rating or occupancy in a straight line.** ADR is lowest in the Mid tier (₹17,613.76) and highest in the Bottom tier (₹18,998.80), meaning the worst-rated, lowest-occupancy properties are charging more than mid-performers, not less. This rules out discounting as the driver of low ratings and instead suggests a price/experience mismatch at the bottom end of the portfolio.
 
 * **The gap is property-specific, not room-category-specific.** The same property appears in both the top and bottom tiers depending on city, e.g., Atliq Bay rates 4.30 in Hyderabad and 4.28 in Bangalore, but only 2.36 in Mumbai, ruling out a portfolio-wide format issue and pointing instead to inconsistent execution at specific city locations.
 
@@ -76,4 +76,20 @@ Together, these patterns point to a portfolio that could grow revenue further by
 
 <p align="center">
   <img src="Images/property_metrics.png" width = "100%">
+</p>
+
+### Revenue and Occupacy Trends over Weeks
+
+* **ADR is essentially flat across 13 weeks**, a band of roughly ₹17,500–18,500, under a 6% spread. This is a striking level of pricing stability over a 3-month window and suggests the portfolio is running on a static or near-static rate card rather than actively adjusting prices week to week. A hotel practicing dynamic/demand-based pricing would typically show ADR rising in higher-occupancy weeks (e.g., weeks 24 and 28) and falling in low weeks (26, 30), which isn't visible here.
+
+* **Occupancy is the metric actually doing the moving**, swinging between roughly 33% and 47%, a range nearly 3x wider (proportionally) than ADR's. Every visible RevPAR peak and dip lines up with an Occupancy peak or dip (e.g., both dip together around week 26, and both rise together into weeks 27–28), while ADR barely reacts at either point.
+
+* **RevPAR is currently functioning as an occupancy proxy rather than a true revenue-efficiency metric.** With ADR holding nearly constant, week-over-week RevPAR movement is being driven almost entirely by occupancy, meaning a rise in RevPAR reflects more rooms sold, not stronger revenue per room. This distinction matters for reporting: RevPAR should be interpreted alongside its two components rather than as a standalone revenue-quality signal until pricing becomes a more active variable.
+
+* **The hotel's flat pricing is a missed-revenue signal.** Weeks 24 and 28 show occupancy spikes with no corresponding ADR increase, classic conditions where demand-based pricing (charging more when rooms are naturally selling faster) could have captured extra revenue that a flat rate card leaves on the table.
+
+Takeaway: The portfolio's revenue swings are being driven by how many rooms sell, not by what they're priced at. Since ADR isn't responding to visible demand peaks (weeks 24, 28), introducing even basic demand-based pricing — raising rates modestly during high-occupancy weeks, is a low-risk, quantifiable opportunity to capture revenue currently being left on the table.
+
+<p align="center">
+  <img src="Images/revenue_trends.png" width = "100%">
 </p>
