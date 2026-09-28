@@ -93,3 +93,15 @@ Takeaway: The portfolio's revenue swings are being driven by how many rooms sell
 <p align="center">
   <img src="Images/revenue_trends.png" width = "100%">
 </p>
+
+# Recommendations
+
+<p align="center">
+  <img src="Images/channels.png" width = "100%">
+</p>
+
+* **Introduce Differential Pricing for Direct Offline Bookings:** With an ADR of **₹18,225** and **85.2%** realization rate, the Direct Offline channel appears to maintain a relatively high price without differentiated offers. Since this channel avoids third-party commissions, targeted lower pricing or exclusive direct-booking offers can be tested to improve occupancy and booking volume while retaining more revenue per booking.
+
+* **Maintain Consistent Public Pricing Across Channels:** Keep the public room price broadly consistent across booking channels rather than creating large price differences that could affect channel competitiveness. Instead of lowering the public price, opt for promotional offers or coupons such as introducing a 5% direct-booking discount. This keeps the advertised price unchanged while providing customers with an incentive to book directly.
+
+* **Introduce Demand Based Pricing** The hotel's ADR remains nearly constant at around ₹18,000 throughout the three-month period, indicating a largely flat pricing strategy. However, weekend demand is higher, with 44.22% occupancy compared with 39.06% occupancy on weekdays, while ADR remains almost unchanged (₹18,028 vs. ₹18,134). The hotel could capture additional revenue by moving beyond flat pricing and adopting either weekday/weekend pricing or a more dynamic pricing strategy that adjusts rates based on demand, occupancy, festive seasons, holidays, and other high-demand periods.
