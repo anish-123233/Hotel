@@ -13,6 +13,8 @@ Key areas of analysis include:
 - **Booking & Cancellation Analysis:** Analysis of booking statuses, cancellations, and no-shows to identify potential revenue leakage.
 - **Operational Performance:** Evaluation of occupancy, realization rates, and other operational KPIs to identify performance gaps and improvement opportunities.
 
+To view the full dashboard click [here.](Dashboard.png)
+
 Key metrics and measures for the hotel industry used in this project can be found [here.](metrics_list.xlsx)
 
 The python scripts utilized to clean and quarantine data can be found [here.](data_cleaning/src/quality_pipeline.ipynb)
@@ -29,7 +31,7 @@ The SQL script used to perform data transformations for analysis can be found [h
 
 The SQL queries used to perform the hotel portfolio analysis can be found [here.](SQL_scripts/eda.sql)
 
-To view the full dashboard click [here.](Dashboard.png)
+
 
 
 
@@ -109,3 +111,16 @@ Takeaway: The portfolio's revenue swings are being driven by how many rooms sell
 * **Maintain Consistent Public Pricing Across Channels:** Keep the public room price broadly consistent across booking channels rather than creating large price differences that could affect channel competitiveness. Instead of lowering the public price, opt for promotional offers or coupons such as introducing a 5% direct-booking discount. This keeps the advertised price unchanged while providing customers with an incentive to book directly.
 
 * **Introduce Demand Based Pricing** The hotel's ADR remains nearly constant at around ₹18,000 throughout the three-month period, indicating a largely flat pricing strategy. However, weekend demand is higher, with 44.22% occupancy compared with 39.06% occupancy on weekdays, while ADR remains almost unchanged (₹18,028 vs. ₹18,134). The hotel could capture additional revenue by moving beyond flat pricing and adopting either weekday/weekend pricing or a more dynamic pricing strategy that adjusts rates based on demand, occupancy, festive seasons, holidays, and other high-demand periods.
+
+# Caveats and Assumptions
+
+* **Incomplete Week 32:** Week 32 contains data for only one day and is therefore excluded from the Power BI dashboard visualizations to avoid misleading weekly comparisons. The underlying Week 32 data has been retained and remains available for further analysis.
+
+* **Missing Customer Ratings:** Null ratings are treated as missing feedback rather than negative or dissatisfied responses. A blank rating does not indicate that the customer had a poor experience; it may simply mean that the customer chose not to provide a rating or did not have an opportunity to do so.
+
+* **Invalid Data Handling:** Incorrect or invalid records are not dropped blindly. They are quarantined and documented separately, preserving the affected records for future investigation, validation, and potential recovery.
+
+* **Booking Status vs. Actual Stay:** Total successful bookings do not necessarily represent the number of guests who actually stayed at the hotel, as the dataset includes cancelled and no-show bookings. Occupancy is therefore calculated using only bookings with a **Checked Out** status, representing completed stays.
+
+* **Weekend Definition:** For this analysis, Friday and Saturday are classified as weekend days instead of the conventional Saturday-Sunday definition. This custom classification is applied consistently throughout the analysis.
+
