@@ -23,6 +23,8 @@ The pipeline runner used to automate execution and enforce the data quality gate
 
 The automation script used to run the data quality pipeline and execute automated Pytest validations can be found [here.](data_cleaning/run_pipeline.py)
 
+The python script used to connect python to postgres to export cleaned data for analysis can be found [here.](data_cleaning/setup_database.py)
+
 The SQL script used to perform data transformations for analysis can be found [here.](SQL_scripts/transformations.sql)
 
 The SQL queries used to perform the hotel portfolio analysis can be found [here.](SQL_scripts/eda.sql)

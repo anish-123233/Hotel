@@ -3,9 +3,9 @@
 This section illustrates the output of the data cleaning pipeline followed by test pipeline to validate cleaned data.
 
 <p align="center">
-  <img src="Images/run_pipeline.png">
+  <img src="Images/run_pipeline.png" width = "100%">
 </p>
 
 <p align="center">
-  <img src="Images/test_pipeline.png">
+  <img src="Images/test_pipeline.png" width = "100%">
 </p>
