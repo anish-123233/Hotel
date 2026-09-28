@@ -29,7 +29,7 @@ The SQL script used to perform data transformations for analysis can be found [h
 
 The SQL queries used to perform the hotel portfolio analysis can be found [here.](SQL_scripts/eda.sql)
 
-To view the full dashboard click here[here.](Dashboard.png)
+To view the full dashboard click [here.](Dashboard.png)
 
 
 
